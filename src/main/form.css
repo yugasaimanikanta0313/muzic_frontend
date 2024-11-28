@@ -1,0 +1,127 @@
+form {
+  margin: 0 auto; 
+  width: 300px;
+  text-align: left;
+  border: 2px solid #e935a4; 
+  padding: 15px;
+  border-radius: 50px; /* Add rounded edges to the form */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  border-radius: 5px; /* Add rounded edges to the labels */
+  background-color: #ccc; /* Add background color for labels */
+  padding: 20px; /* Add padding for labels */
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='email'],
+select,
+input[type='date'],
+textarea {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Add rounded edges to text fields */
+  box-sizing: border-box;
+}
+
+button[type='submit'], button[type='reset'] {
+  background-color: rgb(235, 63, 161);
+  margin-right: 10px;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type='submit']:hover, button[type='reset']:hover button[type='button']:hover {
+  background-color: #812072; 
+}
+
+.network-error {
+  color: rgb(248, 20, 20);
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.myForm {
+    width: 500px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+  }  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  thead {
+    background-color: #f0f0f0;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #dfb5ed;
+    color: rgb(42, 2, 46);
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f367e9;
+  }
+  
+  tr:hover {
+    background-color: #56d8ec;
+  }
+  
+  .audio-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .audio-container audio {
+    flex: 1;
+  }
+  
+  .audio-container a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #0066ff;
+    font-weight: bold;
+  }
+  
+  .audio-container a:hover {
+    text-decoration: underline;
+    color: #003366;
+  }
+  /* CSS for audio player */
+.audio-container {
+  display: flex;
+  align-items: center;
+}
+
+.audio-container audio {
+  margin-right: 10px;
+}
+
+/* CSS for play option */
+.play-option {
+  cursor: pointer;
+  color: #007bff; /* Blue color, you can change it as needed */
+}
+
+.play-option:hover {
+  text-decoration: underline;
+}
